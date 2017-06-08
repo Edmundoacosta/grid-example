@@ -1,0 +1,46 @@
+body {
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	grid-template-rows: 100px 400px 200px;
+	grid-template-areas:
+	"header header header"
+	"nav article aside"
+	"footer footer footer";
+}
+
+header {
+	grid-area: header;
+	background: green;
+	text-align: center;
+	font-size: 25px;
+}
+
+nav {
+	grid-area: nav;
+	background: blue;
+	text-align: center;
+	font-size: 25px;
+}
+
+article {
+	grid-area: article;
+	background: yellow;
+	text-align: center;
+	font-size: 25px;
+}
+
+aside {
+	grid-area: aside;
+	background: orange;
+	text-align: center;
+	font-size: 25px;
+}
+
+footer {
+	grid-area: footer;
+	background: red;
+	text-align: center;
+	font-size: 25px;
+}
+
+
